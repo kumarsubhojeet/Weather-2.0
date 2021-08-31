@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{}
+.input_bar{
+    width: 20%;
+    margin: 50px auto;
+    text-align: center;
+}
+.weather_main{
+    margin: 20px auto;
+    text-align: center;
+    width: 37%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:12px;
+}
+
+
+@media screen and (max-width: 980px) {
+    .input_bar{
+        width: 90%;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .weather_main{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 20px auto;
+        text-align: center;
+        width: 95%;
+        
+    }
+  }
